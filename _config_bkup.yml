@@ -1,0 +1,23 @@
+# This is the default format.
+# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:categories/:year/:month/:day/:title
+
+highlighter: rouge
+
+# Themes are encouraged to use these universal variables
+# so be sure to set them if your theme uses them.
+#
+title : Paperwork
+author :
+name : Kunling Huang
+email : khuang82[at]wisc.edu
+
+
+# social links
+twitter_username: Huang_Kunling # DO NOT include the @ character, or else the build will fail!
+github_username:  KunlingHuang # DO NOT include the @ character, or else the build will fail!
+
+show_excerpts: true # set to false to remove excerpts on the homepage
+theme: minimal-mistakes-jekyll
+
+
