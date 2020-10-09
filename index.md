@@ -9,4 +9,4 @@ I am a PhD student at Department of Statistics, University of Wisconsin-Madison.
 
 - Email: <khuang82@wisc.edu>
 
-- CV: [CV]("./assets/docs/KHuangCV.pdf")
+- CV: [CV](/assets/docs/KHuangCV.pdf)
