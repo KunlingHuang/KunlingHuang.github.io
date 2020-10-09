@@ -1,7 +1,7 @@
 ---
 title: "Research"
 author_profile: false
-permalink: "/Research/"
+permalink: "/research/"
 path: "/pages/"
 ---
 
