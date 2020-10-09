@@ -9,23 +9,23 @@
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
+# FIXME
+#theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Paperwork"
+title                    : "All about paper"
 title_separator          : "|"
-subtitle                 : "Research and books, all about paperwork."
+subtitle                 : "Research and books, all about paper."
 name                     : "Kunling Huang"
-description              : #"Research and books, all about paperwork."
+description              : "Research and books, all about paper."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "KunlingHuang/KunlingHuang.github.io"
-teaser                   : 
-logo                     : 
+teaser                   : "/assets/images/linkedin_banner_image_2.png"
+logo                     : "/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : false #true, false (default)
 words_per_minute         : 200
@@ -49,8 +49,8 @@ comments:
 reCaptcha:
   siteKey                :
   secret                 :
-atom_feed:
-  path                   : # blank (default) uses feed.xml
+atom_feed: false
+#  path                   : false # blank (default) uses feed.xml
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
