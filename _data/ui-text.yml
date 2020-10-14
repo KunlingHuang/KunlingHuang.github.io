@@ -14,7 +14,7 @@ en: &DEFAULT_EN
   breadcrumb_separator       : "/"
   menu_label                 : "Toggle menu"
   search_label               : "Toggle search"
-  toc_label                  : "On this page"
+  toc_label                  : #""
   ext_link_label             : "Direct link"
   less_than                  : "less than"
   minute_read                : "minute read"
@@ -27,7 +27,7 @@ en: &DEFAULT_EN
   comments_title             : "Comments"
   more_label                 : "Learn more"
   related_label              : "You may also enjoy"
-  follow_label               : "Contact me:"
+  follow_label               : #"Contact me:"
   feed_label                 : "Feed"
   powered_by                 : "Powered by"
   website_label              : "Website"
@@ -49,7 +49,7 @@ en: &DEFAULT_EN
   search_placeholder_text    : "Enter your search term..."
   search_algolia_no_results  : "No results"
   results_found              : "Result(s) found"
-  back_to_top                : "Back to top"
+  back_to_top                : "Top"
 en-US:
   <<: *DEFAULT_EN
 en-CA:

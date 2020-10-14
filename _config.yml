@@ -10,9 +10,9 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 # FIXME
-#theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+theme                  : "minimal-mistakes-jekyll"
+remote_theme           : "mmistakes/minimal-mistakes@4.20.2"
+minimal_mistakes_skin    : "default" #, "dirt", "contrast",  "default",  "air", "aqua", "dark", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -27,7 +27,7 @@ repository               : "KunlingHuang/KunlingHuang.github.io"
 teaser                   : "/assets/images/linkedin_banner_image_2.png"
 logo                     : "/assets/images/logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs            : false #true, false (default)
+breadcrumbs            : true #true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -50,7 +50,7 @@ reCaptcha:
   siteKey                :
   secret                 :
 atom_feed: false
-#  path                   : false # blank (default) uses feed.xml
+path                   : false # blank (default) uses feed.xml
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -113,8 +113,6 @@ author:
       url: "https://github.com/KunlingHuang"
 
 # Site Footer
-sidebar:
-
 footer:
   links:
     - label: "Email"
@@ -204,7 +202,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: pretty #/:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -239,21 +237,21 @@ whitelist:
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
-  path: /categories/
+  path: /blog/categories/
 tag_archive:
   type: liquid
-  path: /tags/
+  path: /blog/tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /blog/tags/:name/
 
 
 # HTML Compression
@@ -268,31 +266,35 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/posts/"
       type: posts
     values:
       author_profile: true
       sidebar: true
       read_time: false
+      layout: single
       comments: # true
-      share: false
+      share: true
       related: false
   # pages  
   - scope:
       path: ""
-      type: pages
+      type: single
     values:
       layout: single
+      author_profile: 
   - scope:
       path: ""
       type: tag
     values:
-      author_profile: true
+      author_profile: 
   - scope:
       path: ""
       type: category
     values:
       comments: false
+      author_profile: 
+
     
   # _foo
   - scope:
@@ -300,6 +302,8 @@ defaults:
       type: foo
     values:
       layout: single
+      author_profile: 
+
 
   # _portfolio
   - scope:
@@ -307,5 +311,5 @@ defaults:
       type: portfolio
     values:
       layout: single
-      author_profile: false
-      share: true
+      author_profile: 
+      share: 

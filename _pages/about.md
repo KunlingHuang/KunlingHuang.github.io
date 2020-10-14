@@ -1,15 +1,16 @@
 ---
 title: "About"
-author_profile: false
+layout: single
+author_profile: true
 permalink: "/about/"
 path: "/pages/"
 ---
 
 
-I am a PhD student at Department of Statistics, University of Wisconsin-Madison. My research focuses on designing statistical methods to detect non-codging risk variants in neurodevelopmental disorder.
+I am a PhD student at Department of Statistics, University of Wisconsin-Madison. My research focuses on designing statistical methods to detect non-coding risk variants in neurodevelopmental disorder.
 
 Email: <khuang82@wisc.edu> \
-CV: [CV](https://github.com/KunlingHuang/KunlingHuang.github.io/tree/master/assets/docs/KHuangCV.pdf)
+CV: [CV](https://github.com/KunlingHuang/KunlingHuang.github.io/blob/master/assets/docs/KHuangCV.pdf)
 
 
 ## Education
@@ -30,10 +31,10 @@ CV: [CV](https://github.com/KunlingHuang/KunlingHuang.github.io/tree/master/asse
 ### Transcriptome-wide transmission disequilibrium analysis identifies novel risk genes for autism spectrum disorder
 
 - Conducted a trio-based transcriptome-wide association study on GTEx brain tissues on large-scale genetic data to identify autism spectrum disorder (ASD) genes
-- Developed and optimized pipeline using R libraries tidyverse and data.table (project code available at: https://github.com/qlu-lab/TITANS)
+- Developed and optimized pipeline using R libraries tidyverse and data.table ([project code](https://github.com/qlu-lab/TITANS))
 - Designed parallel computing strategy on high-performance computing environment HTCondor
 - Implemented pseudo sibling matching and conditional logistic regression models for analyzing ASD trios
-- Specified and confirmed the epigenetic role of transcription factor gene *POU3F2* on ASD risk
+- Specified and confirmed the epigenetic role of transcription factor gene [*POU3F2*](https://www.ncbi.nlm.nih.gov/gene/5454) on ASD risk
 - Performed DNase-I network analysis and demonstrated excess damaging de novo variants in known ASD genes regulated by *POU3F2*
 - Identified heritability enrichments in *POU3F2* binding sites using LD score regression
 - Evaluated the differential expression in adult and fetal brain for *POU3F2*
@@ -53,7 +54,7 @@ CV: [CV](https://github.com/KunlingHuang/KunlingHuang.github.io/tree/master/asse
 
 ### Genome-wide association study for congenital heart disease
 - Curated next generation sequencing (NGS) data using Plink and bcftools
-- Combining the association results between microarray and NGS studies using meta-analysis tool METAL and R
+- Combined the association results between microarray and NGS studies using meta-analysis tool METAL and R
 
 ### Identifying ovarian cancer biomarkers with different disease progress
 - Collected RNA-seq data and ovarian cancer progress information using Bioconductor on R

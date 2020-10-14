@@ -12,4 +12,8 @@ gem "jekyll-theme-minimal"
 gem "minimal-mistakes-jekyll"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
+group :jekyll_plugins do
+  gem "jekyll-archives"
+end
+
 # gem "rails"

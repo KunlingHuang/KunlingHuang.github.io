@@ -1,8 +1,11 @@
 ---
 title: "Research"
-author_profile: false
+layout: single
+author_profile: 
 permalink: "/research/"
 path: "/pages/"
+toc: true
+toc_icon: "fas fa-compass"
 ---
 
 ## Epigenetics
