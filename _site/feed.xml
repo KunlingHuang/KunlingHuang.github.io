@@ -1,1 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-13T23:52:46-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">All about paper</title><subtitle>Research and books, all about paper.</subtitle><author><name>Kunling Huang</name></author><entry><title type="html">Academic statement writing</title><link href="http://localhost:4000/2020/10/10/Academic-statement-writing/" rel="alternate" type="text/html" title="Academic statement writing" /><published>2020-10-10T00:00:00-05:00</published><updated>2020-10-10T00:00:00-05:00</updated><id>http://localhost:4000/2020/10/10/Academic%20statement%20writing</id><content type="html" xml:base="http://localhost:4000/2020/10/10/Academic-statement-writing/"></content><author><name>Kunling Huang</name></author><category term="Advice" /><summary type="html"></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-16T22:58:05-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Kunling Huang</title><author><name>Kunling Huang</name></author><entry><title type="html">Pipeline documentation template</title><link href="http://localhost:4000/2020/10/16/Pipeline-documentation-template/" rel="alternate" type="text/html" title="Pipeline documentation template" /><published>2020-10-16T00:00:00-05:00</published><updated>2020-10-16T00:00:00-05:00</updated><id>http://localhost:4000/2020/10/16/Pipeline%20documentation%20template</id><content type="html" xml:base="http://localhost:4000/2020/10/16/Pipeline-documentation-template/">&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;README&lt;/code&gt; template I use.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#########################
+#	Project 	#
+#########################
+
+=====
+Dates
+=====
+
+Dates of major updates and description of the updates
+
+====
+INFO
+====
+
+Input: description of inputs, including the path and format
+
+Output: description of outputs, including the path and format
+
+Summary: a brief summary of the pipeline
+
+==========
+Processing
+==========
+
+Indicate where did you execute your scripts.
+
+Step 1. Briefly describe step 1
+
+    Step 1-1. Describe step 1-1 in detail. Including the script used in step 1-1 and the path and format of the files used.
+
+
+...
+
+=====
+Notes
+=====
+
+Anything you think might be important in the future. For example, the input files contains duplicated rows.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Kunling Huang</name></author><category term="Advice" /><summary type="html">The README template I use.</summary></entry><entry><title type="html">Academic statement writing</title><link href="http://localhost:4000/2020/10/10/Academic-statement-writing/" rel="alternate" type="text/html" title="Academic statement writing" /><published>2020-10-10T00:00:00-05:00</published><updated>2020-10-10T00:00:00-05:00</updated><id>http://localhost:4000/2020/10/10/Academic%20statement%20writing</id><content type="html" xml:base="http://localhost:4000/2020/10/10/Academic-statement-writing/">&lt;p&gt;A list of improving your academic statement writing.&lt;/p&gt;</content><author><name>Kunling Huang</name></author><category term="Advice" /><summary type="html">A list of improving your academic statement writing.</summary></entry></feed>

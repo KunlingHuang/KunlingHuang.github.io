@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Resources | All about paper</title>
-<meta name="description" content="Research and books, all about paper.">
+<!-- begin _includes/seo.html --><title>Resources -</title>
+<meta name="description" content="">
 
 
   <meta name="author" content="Kunling Huang">
@@ -19,12 +19,10 @@
 
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="All about paper">
+<meta property="og:site_name" content="">
 <meta property="og:title" content="Resources">
 <meta property="og:url" content="http://localhost:4000/resources/">
 
-
-  <meta property="og:description" content="Research and books, all about paper.">
 
 
 
@@ -32,7 +30,7 @@
 
   <meta name="twitter:site" content="@Huang_Kunling">
   <meta name="twitter:title" content="Resources">
-  <meta name="twitter:description" content="Research and books, all about paper.">
+  <meta name="twitter:description" content="">
   <meta name="twitter:url" content="http://localhost:4000/resources/">
 
   
@@ -77,7 +75,7 @@
 <!-- end _includes/seo.html -->
 
 
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="All about paper Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -110,6 +108,7 @@
     <!-- start custom head snippets -->
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
 
 <!-- end custom head snippets -->
 
@@ -136,11 +135,11 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         
-          <a class="site-logo" href="/"><img src="/assets/images/logo.png" alt=""></a>
+          <a class="site-logo" href="/"><img src="/assets/images/title_text.png" alt=""></a>
         
         <a class="site-title" href="/">
-          All about paper
-          <span class="site-subtitle">Research and books, all about paper.</span>
+          
+          
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a href="/research/">Research</a>
@@ -198,117 +197,6 @@
 
 <div id="main" role="main">
   
-  <div class="sidebar sticky">
-  
-
-
-<div itemscope itemtype="https://schema.org/Person">
-
-  
-    <div class="author__avatar">
-      
-        <img src="/assets/images/headshot.png" alt="Kunling Huang" itemprop="image">
-      
-    </div>
-  
-
-  <div class="author__content">
-    
-      <h3 class="author__name" itemprop="name">Kunling Huang</h3>
-    
-    
-      <div class="author__bio" itemprop="description">
-        <p>PhD student at Department of Statistics, University of Wisconsin-Madison</p>
-
-      </div>
-    
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      
-
-      
-        
-          
-            <li><a href="khuang82@wisc.edu" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">Email</span></a></li>
-          
-        
-          
-        
-          
-            <li><a href="https://twitter.com/Huang_Kunling" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
-          
-        
-          
-            <li><a href="https://github.com/KunlingHuang" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
-          
-        
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      <!--
-  <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
-      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
-    </a>
-  </li>
--->
-    </ul>
-  </div>
-</div>
-
-  
-  </div>
-
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
@@ -332,12 +220,12 @@
         
           <aside class="sidebar__right sticky">
             <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-fas fa-compass"></i> On this page</h4></header>
+              <header><h4 class="nav__title"><i class="fas fa-fas fa-compass"></i> Overview</h4></header>
               <ul class="toc__menu">
   <li><a href="#conducting-reproducible-research">Conducting reproducible research</a>
     <ul>
       <li><a href="#1-organizing-your-pipeline">1. Organizing your pipeline</a></li>
-      <li><a href="#2-keeping-your-documentation">2. Keeping your documentation</a></li>
+      <li><a href="#2-documenting-your-work">2. Documenting your work</a></li>
       <li><a href="#3-working-on-high-throughput-clusters">3. Working on high throughput clusters</a></li>
     </ul>
   </li>
@@ -359,7 +247,34 @@
 
 <h3 id="1-organizing-your-pipeline">1. Organizing your pipeline</h3>
 
-<h3 id="2-keeping-your-documentation">2. Keeping your documentation</h3>
+<p>Organize your pipeline by the type and usage of your data. Typically, I start my project directory like this.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Project
+├── Data                        # for inputs
+├── Results                     # for outputs and results)          
+├── Plots                       # for plot outputs
+└── Scripts                     # for storing scripts
+    ├── 1-1.xxx.sh              # the script for step 1-1
+    ├── 1-2.xxx.sh              # the script for step 1-2
+    └── ...              
+</code></pre></div></div>
+
+<p>Run your scripts under <code class="language-plaintext highlighter-rouge">Scripts</code> and store the output files to <code class="language-plaintext highlighter-rouge">Results</code> and <code class="language-plaintext highlighter-rouge">Plots</code>. Start the script names by the number of the corresponding step so that the scripts will be ordered accordingly. Remember to use <strong>relative path</strong> in your scripts so that the codes are still executable after changing the path of project directory.</p>
+
+<p>Follow a consistent folder organization and naming tradition through your project. This saves you a lot of time when you revisit your pipeline.</p>
+
+<h3 id="2-documenting-your-work">2. Documenting your work</h3>
+
+<p>I include at least these information in my documentation.</p>
+
+<ul>
+  <li>Major changes of the pipeline and the dates</li>
+  <li>The summary of the pipeline</li>
+  <li>The input/output file formats and their path</li>
+  <li>A detailed explanation of each step</li>
+</ul>
+
+<p>Here is the <a href="/2020/10/16/Pipeline-documentation-template/">template</a> I used to document my work.</p>
 
 <h3 id="3-working-on-high-throughput-clusters">3. Working on high throughput clusters</h3>
 
@@ -369,7 +284,7 @@
 
 <p><img src="/assets/images/TWAS_workflow_B.png" alt="TITANS workflow" /></p>
 
-<p><a href="https://github.com/qlu-lab/TITANS"><strong>TITANS</strong></a> (TrIo-based Transcriptome-wide AssociatioN Study) is a statistical framework to conduct transcription-wide associaiton study in proband-parent trios. TITANS quantifies the transmission disequilibrium of genetically regulated gene expression from parents to probands using pseudosibling matching and conditional logistic regression.</p>
+<p><a href="https://github.com/qlu-lab/TITANS"><strong>TITANS</strong></a> (TrIo-based Transcriptome-wide AssociatioN Study) is a statistical framework for conducting transcription-wide associaiton study in proband-parent trios. TITANS quantifies the transmission disequilibrium of genetically regulated gene expression from parents to probands using pseudosibling matching and conditional logistic regression.</p>
 
 
         
@@ -412,11 +327,11 @@
     
       
         
-          <li><a href="khuang82@wisc.edu" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a></li>
+          <li><a href="khuang82@wisc.edu" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
         
       
         
-          <li><a href="https://twitter.com/Huang_Kunling" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+          <li><a href="https://twitter.com/Huang_Kunling" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i> Twitter</a></li>
         
       
         
@@ -433,7 +348,6 @@
       
     
 
-    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 

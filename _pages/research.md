@@ -1,7 +1,7 @@
 ---
 title: "Research"
 layout: single
-author_profile: 
+#author_profile: true
 permalink: "/research/"
 path: "/pages/"
 toc: true

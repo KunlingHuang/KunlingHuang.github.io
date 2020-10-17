@@ -5,6 +5,10 @@
 <lastmod>2020-10-10T00:00:00-05:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2020/10/16/Pipeline-documentation-template/</loc>
+<lastmod>2020-10-16T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -33,6 +37,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/layouts/home/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>

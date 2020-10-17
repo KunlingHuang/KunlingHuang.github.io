@@ -1,28 +1,27 @@
 ---
 title: "About"
 layout: single
-author_profile: true
+#author_profile: true
 permalink: "/about/"
-path: "/pages/"
 ---
 
 
 I am a PhD student at Department of Statistics, University of Wisconsin-Madison. My research focuses on designing statistical methods to detect non-coding risk variants in neurodevelopmental disorder.
 
 Email: <khuang82@wisc.edu> \
-CV: [CV](https://github.com/KunlingHuang/KunlingHuang.github.io/blob/master/assets/docs/KHuangCV.pdf)
+CV: [CV](/assets/docs/KHuangCV.pdf)
 
 
 ## Education
 
 - **University of Wisconsin-Madison**  
-    *Doctor of philosophy in Statistics*                                   
-    Advisor: Dr. Qiongshi Lu ([Lu lab](https://qlu-lab.org/))
-    
-    Dissertation: “Statistical methods for linking noncoding genetic variations to target genes with application in neurodevelopmental disorders”
+*Doctor of philosophy in Statistics*                                   
+Advisor: Dr. Qiongshi Lu ([Lu lab](https://qlu-lab.org/))
+\
+Dissertation: “Statistical methods for linking noncoding genetic variations to target genes with application in neurodevelopmental disorders”
 
 ## Skills
-- Operation systems: Linux/Unix
+- Operation system: Linux/Unix
 - Programming languages: R, Python, Java
 - Database tools: MySQL
 
@@ -30,7 +29,7 @@ CV: [CV](https://github.com/KunlingHuang/KunlingHuang.github.io/blob/master/asse
 
 ### Transcriptome-wide transmission disequilibrium analysis identifies novel risk genes for autism spectrum disorder
 
-- Conducted a trio-based transcriptome-wide association study on GTEx brain tissues on large-scale genetic data to identify autism spectrum disorder (ASD) genes
+- Conducted a large-scale transcriptome-wide association study on autism spectrum disorder (ASD) genetics data
 - Developed and optimized pipeline using R libraries tidyverse and data.table ([project code](https://github.com/qlu-lab/TITANS))
 - Designed parallel computing strategy on high-performance computing environment HTCondor
 - Implemented pseudo sibling matching and conditional logistic regression models for analyzing ASD trios
@@ -58,9 +57,7 @@ CV: [CV](https://github.com/KunlingHuang/KunlingHuang.github.io/blob/master/asse
 
 ### Identifying ovarian cancer biomarkers with different disease progress
 - Collected RNA-seq data and ovarian cancer progress information using Bioconductor on R
-- Performed gene expression cluster analysis using weighted correlation network analysis (WGCNA) on R
-- Specified disease associated clusters using Gene Ontology (GO)
-- Confirmed the biomarker validity by testing the difference of survival rates in patient groups with different cancer progress
-
+- Performed gene expression cluster analysis using weighted correlation network analysis (WGCNA) and Gene Ontology (GO)
+- Validated the cancer biomarkers using survival models in different patient groups
 
 

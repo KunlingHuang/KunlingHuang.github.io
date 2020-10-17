@@ -16,16 +16,16 @@ minimal_mistakes_skin    : "default" #, "dirt", "contrast",  "default",  "air", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : "All about paper"
-title_separator          : "|"
-subtitle                 : "Research and books, all about paper."
+title                    : 
+title_separator          : 
+subtitle                 : 
 name                     : "Kunling Huang"
-description              : "Research and books, all about paper."
+description              : 
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "KunlingHuang/KunlingHuang.github.io"
-teaser                   : "/assets/images/linkedin_banner_image_2.png"
-logo                     : "/assets/images/logo.png"
+teaser                   : 
+logo                     : "/assets/images/title_text.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs            : true #true, false (default)
 words_per_minute         : 200
@@ -100,13 +100,13 @@ author:
   email            : #"khuang82@wisc.edu"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope"
       url: "khuang82@wisc.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/Huang_Kunling"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -116,10 +116,10 @@ author:
 footer:
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope"
       url: "khuang82@wisc.edu"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/Huang_Kunling"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
@@ -276,7 +276,7 @@ defaults:
       comments: # true
       share: true
       related: false
-  # pages  
+      show_date: true
   - scope:
       path: ""
       type: single

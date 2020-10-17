@@ -393,10 +393,11 @@ body {
 }
 
 .back-to-top {
+  position: sticky;
   display: block;
   clear: both;
-  color: $muted-text-color;
-  font-size: 0.6em;
+  color: $navicon-link-color-hover;
+  font-size: $type-size-8;
   text-transform: uppercase;
   text-align: right;
   text-decoration: none;
