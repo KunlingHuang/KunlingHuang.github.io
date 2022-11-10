@@ -8,7 +8,7 @@ toc: true
 toc_icon: "fas fa-compass"
 toc_label: #""
 toc_sticky: true
-#author_profile: true
+author_profile: true
 #sidebar: 
 #    nav: docs
 ---

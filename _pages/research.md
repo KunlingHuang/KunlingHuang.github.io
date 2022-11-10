@@ -1,14 +1,21 @@
 ---
 title: "Research"
 layout: single
-#author_profile: true
+author_profile: true
 permalink: "/research/"
 path: "/pages/"
 toc: true
 toc_icon: "fas fa-compass"
 ---
+## eQTL study
+- Metabolome-wide association study
 
-## Epigenetics
+
+- Transcriptome-wide association study
 
 
-## Neurodevelopmental disorder
+##  GWAS methods
+
+##  Complex traits
+- Adiposity
+- Neurodevelopmental disorder
