@@ -8,7 +8,6 @@ gem 'jekyll', '~> 3.7'
 
 # **or** if you're deploying via GitHub Pages
 gem 'github-pages'
-gem "jekyll-theme-minimal"
 gem "minimal-mistakes-jekyll"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
