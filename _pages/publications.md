@@ -9,7 +9,7 @@ author_profile: true
 ## 2022
 
 - **Multi-biofluid metabolome-wide association study illuminates the molecular basis in complex trait genetics** \
-[*In progress*], 2022
+[*In progress*], 2022\
 **Huang, K.**, Liu, J., Song, G., Panyard, D., Wu, Y., Deming, Y., Miao, J., Zhao, Z., Engelman, C., and Lu, Q
 
 ## 2021
